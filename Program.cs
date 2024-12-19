@@ -1,4 +1,4 @@
-﻿#region T1
+﻿#region T1(for)
 for (int i = 0; i <= 9; i++)
 {
     Console.WriteLine(i);
@@ -23,7 +23,7 @@ Console.WriteLine("\n_______________________\n");
 Console.Write("Enter number of loops: ");
 int v1 = Convert.ToInt32(Console.ReadLine());
 //int u
- int s1 = 0;
+int s1 = 0;
 
 Console.WriteLine("\nLogs: ");
 for (int i = 1; i <= v1; i++)
@@ -39,7 +39,7 @@ for (int i = 1; i <= v1; i++)
 Console.WriteLine("\nFinal result: " + s1);
 #endregion
 Console.WriteLine("\n_______________________\n");
-#region T4
+#region T4(While)
 Console.Write("Enter a number bigger than 0: ");
 float input = float.Parse(Console.ReadLine());
 Console.Write("\n");
@@ -52,10 +52,22 @@ while (input < 0)
 Console.WriteLine("\nYou've entered a valid number: " + input);
 #endregion
 Console.WriteLine("\n_______________________\n");
-#region T5
-
+#region T5(arrays)
+int[] arr = { 23, 9, 7 };
+for (int i = 0; i <= arr.Length; i++)
+{
+    Console.WriteLine(arr[i]);
+}
 #endregion
 Console.WriteLine("\n_______________________\n");
 #region T6
+string[] arr2 = { "Alina", "Katarina", "Milana", "Violetta", "Vlad", "Acya" };
+for (int i = 0; i <= arr2.Length; i++)
+{
+    Console.WriteLine(arr2[i].ToUpper());
+}
+#endregion
+Console.WriteLine("\n_______________________\n");
+#region T7
 
 #endregion
